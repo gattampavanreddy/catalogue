@@ -32,7 +32,7 @@ jobs:
     permissions:
       statuses: write
       contents: write
-    uses: daws/workflows/.github/workflows/eks-main-pipeline.yaml@main
+    uses: gattampavan/workflows/.github/workflows/eks-main-pipeline.yaml@main
     with:
       project: 'roboshop'
       component: 'catalogue'
